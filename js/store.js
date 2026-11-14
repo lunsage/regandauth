@@ -48,10 +48,10 @@
       { id: 2, name: 'Sennheiser HD 660S', brand_id: 2, price: 49990, category_id: 1, stock: 8, image: 'assets/img/product-sennheiser.png', description: 'Открытые студийные наушники', connection_type: 'Проводное' },
       { id: 3, name: 'JBL Charge 5', brand_id: 3, price: 9990, category_id: 2, stock: 30, image: 'assets/img/product-jbl.png', description: 'Портативная колонка с защитой от воды', connection_type: 'Беспроводное' },
       { id: 4, name: 'Marshall Stanmore II', brand_id: 4, price: 24990, category_id: 2, stock: 12, image: 'assets/img/product-marshall-home.png', description: 'Домашняя колонка в ретро-стиле', connection_type: 'Беспроводное' },
-      { id: 5, name: 'HiBy R3 Pro', brand_id: 5, price: 15990, category_id: 3, stock: 10, image: 'assets/img/product-hiby.svg', description: 'Цифровой аудиоплеер', connection_type: 'Проводное' },
-      { id: 6, name: 'Fiio M11S', brand_id: 6, price: 45990, category_id: 3, stock: 5, image: 'assets/img/product-fiio.svg', description: 'Плеер Hi-Res аудио', connection_type: 'Проводное' },
-      { id: 7, name: 'Fosi Audio BT20A', brand_id: 7, price: 6990, category_id: 4, stock: 20, image: 'assets/img/product-fosi.svg', description: 'Усилитель для колонок', connection_type: 'Комбинированное' },
-      { id: 8, name: 'Yamaha A-S301', brand_id: 8, price: 39990, category_id: 4, stock: 7, image: 'assets/img/product-yamaha.svg', description: 'Интегральный усилитель', connection_type: 'Проводное' }
+      { id: 5, name: 'HiBy R3 Pro', brand_id: 5, price: 15990, category_id: 3, stock: 10, image: 'assets/img/product-hiby.png', description: 'Цифровой аудиоплеер', connection_type: 'Проводное' },
+      { id: 6, name: 'Fiio M11S', brand_id: 6, price: 45990, category_id: 3, stock: 5, image: 'assets/img/product-fiio.png', description: 'Плеер Hi-Res аудио', connection_type: 'Проводное' },
+      { id: 7, name: 'Fosi Audio BT20A', brand_id: 7, price: 6990, category_id: 4, stock: 20, image: 'assets/img/product-fosi.png', description: 'Усилитель для колонок', connection_type: 'Комбинированное' },
+      { id: 8, name: 'Yamaha A-S301', brand_id: 8, price: 39990, category_id: 4, stock: 7, image: 'assets/img/product-yamaha.png', description: 'Интегральный усилитель', connection_type: 'Проводное' }
     ],
     orders: [
       { id: 1, user_id: 2, date: '2024-01-15', status: 'Доставлен', track_number: 'TRK-000001', total_price: 39980 },

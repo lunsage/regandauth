@@ -1,158 +1,36 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Администратор",
-      "email": "admin@audiodream.ru",
-      "phone": "+7-900-000-00-01",
-      "password": "123",
-      "role": "admin"
-    },
-    {
-      "id": 2,
-      "name": "Иван Петров",
-      "email": "ivan@mail.ru",
-      "phone": "+7-900-000-00-02",
-      "password": "client1",
-      "role": "client"
-    },
-    {
-      "id": 3,
-      "name": "Мария Сидорова",
-      "email": "maria@mail.ru",
-      "phone": "+7-900-000-00-03",
-      "password": "client2",
-      "role": "client"
-    }
-  ],
-  "brands": [
-    { "id": 1, "name": "Sony", "country": "Япония" },
-    { "id": 2, "name": "Sennheiser", "country": "Германия" },
-    { "id": 3, "name": "JBL", "country": "США" },
-    { "id": 4, "name": "Marshall", "country": "Великобритания" },
-    { "id": 5, "name": "HiBy", "country": "Китай" },
-    { "id": 6, "name": "Fiio", "country": "Китай" },
-    { "id": 7, "name": "Fosi Audio", "country": "Китай" },
-    { "id": 8, "name": "Yamaha", "country": "Япония" }
-  ],
-  "categories": [
-    { "id": 1, "name": "Наушники", "description": "Для музыки, работы и тишины" },
-    { "id": 2, "name": "Колонки", "description": "Большой звук для любого пространства" },
-    { "id": 3, "name": "Плееры", "description": "Музыка всегда с собой" },
-    { "id": 4, "name": "Усилители", "description": "Мощь и чистота звука" },
-    { "id": 5, "name": "Аксессуары", "description": "Всё для вашей аудиосистемы" }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "name": "Sony WH-1000XM5",
-      "brand_id": 1,
-      "price": 29990,
-      "category_id": 1,
-      "stock": 15,
-      "image": "assets/img/product-sony.png",
-      "description": "Беспроводные наушники с шумоподавлением",
-      "connection_type": "Беспроводное"
-    },
-    {
-      "id": 2,
-      "name": "Sennheiser HD 660S",
-      "brand_id": 2,
-      "price": 49990,
-      "category_id": 1,
-      "stock": 8,
-      "image": "assets/img/product-sennheiser.png",
-      "description": "Открытые студийные наушники",
-      "connection_type": "Проводное"
-    },
-    {
-      "id": 3,
-      "name": "JBL Charge 5",
-      "brand_id": 3,
-      "price": 9990,
-      "category_id": 2,
-      "stock": 30,
-      "image": "assets/img/product-jbl.png",
-      "description": "Портативная колонка с защитой от воды",
-      "connection_type": "Беспроводное"
-    },
-    {
-      "id": 4,
-      "name": "Marshall Stanmore II",
-      "brand_id": 4,
-      "price": 24990,
-      "category_id": 2,
-      "stock": 12,
-      "image": "assets/img/product-marshall-home.png",
-      "description": "Домашняя колонка в ретро-стиле",
-      "connection_type": "Беспроводное"
-    },
-    {
-      "id": 5,
-      "name": "HiBy R3 Pro",
-      "brand_id": 5,
-      "price": 15990,
-      "category_id": 3,
-      "stock": 10,
-      "image": "assets/img/product-hiby.svg",
-      "description": "Цифровой аудиоплеер",
-      "connection_type": "Проводное"
-    },
-    {
-      "id": 6,
-      "name": "Fiio M11S",
-      "brand_id": 6,
-      "price": 45990,
-      "category_id": 3,
-      "stock": 5,
-      "image": "assets/img/product-fiio.svg",
-      "description": "Плеер Hi-Res аудио",
-      "connection_type": "Проводное"
-    },
-    {
-      "id": 7,
-      "name": "Fosi Audio BT20A",
-      "brand_id": 7,
-      "price": 6990,
-      "category_id": 4,
-      "stock": 20,
-      "image": "assets/img/product-fosi.svg",
-      "description": "Усилитель для колонок",
-      "connection_type": "Комбинированное"
-    },
-    {
-      "id": 8,
-      "name": "Yamaha A-S301",
-      "brand_id": 8,
-      "price": 39990,
-      "category_id": 4,
-      "stock": 7,
-      "image": "assets/img/product-yamaha.svg",
-      "description": "Интегральный усилитель",
-      "connection_type": "Проводное"
-    }
-  ],
-  "orders": [
-    {
-      "id": 1,
-      "user_id": 2,
-      "date": "2024-01-15",
-      "status": "Доставлен",
-      "track_number": "TRK-000001",
-      "total_price": 39980
-    },
-    {
-      "id": 2,
-      "user_id": 3,
-      "date": "2024-01-20",
-      "status": "В пути",
-      "track_number": "TRK-000002",
-      "total_price": 24990
-    }
-  ],
-  "order_items": [
-    { "id": 1, "order_id": 1, "product_id": 1, "product_name": "Sony WH-1000XM5", "product_image": "assets/img/product-sony.png", "quantity": 1, "price_at_moment": 29990 },
-    { "id": 2, "order_id": 1, "product_id": 3, "product_name": "JBL Charge 5", "product_image": "assets/img/product-jbl.png", "quantity": 1, "price_at_moment": 9990 },
-    { "id": 3, "order_id": 2, "product_id": 4, "product_name": "Marshall Stanmore II", "product_image": "assets/img/product-marshall-home.png", "quantity": 1, "price_at_moment": 24990 }
-  ]
+ "users": [
+  { "id": 1, "name": "Администратор", "email": "admin@audiodream.ru", "phone": "+79000000001", "password": "123", "role": "admin" },
+  { "id": 2, "name": "Иван Петров", "email": "ivan@mail.ru", "phone": "+79000000002", "password": "client1", "role": "client" },
+  { "id": 3, "name": "Мария Сидорова", "email": "maria@mail.ru", "phone": "+79000000003", "password": "client2", "role": "client" }
+ ],
+ "brands": [
+  { "id": 1, "name": "Sony", "country": "Япония" },
+  { "id": 2, "name": "Sennheiser", "country": "Германия" },
+  { "id": 3, "name": "JBL", "country": "США" },
+  { "id": 4, "name": "Marshall", "country": "Великобритания" },
+  { "id": 5, "name": "HiBy", "country": "Китай" },
+  { "id": 6, "name": "Fiio", "country": "Китай" },
+  { "id": 7, "name": "Fosi Audio", "country": "Китай" },
+  { "id": 8, "name": "Yamaha", "country": "Япония" }
+ ],
+ "categories": [
+  { "id": 1, "name": "Наушники", "description": "Для музыки, работы и тишины" },
+  { "id": 2, "name": "Колонки", "description": "Большой звук для любого пространства" },
+  { "id": 3, "name": "Плееры", "description": "Музыка всегда с собой" },
+  { "id": 4, "name": "Усилители", "description": "Мощь и чистота звука" },
+  { "id": 5, "name": "Аксессуары", "description": "Всё для вашей аудиосистемы" }
+ ],
+ "products": [
+  { "id": 1, "name": "Sony WH-1000XM5", "brand_id": 1, "price": 29990, "category_id": 1, "stock": 15, "image": "assets/img/product-sony.png", "description": "Беспроводные наушники с шумоподавлением", "connection_type": "Беспроводное" },
+  { "id": 2, "name": "Sennheiser HD 660S", "brand_id": 2, "price": 49990, "category_id": 1, "stock": 8, "image": "assets/img/product-sennheiser.png", "description": "Открытые студийные наушники", "connection_type": "Проводное" },
+  { "id": 3, "name": "JBL Charge 5", "brand_id": 3, "price": 9990, "category_id": 2, "stock": 30, "image": "assets/img/product-jbl.png", "description": "Портативная колонка с защитой от воды", "connection_type": "Беспроводное" },
+  { "id": 4, "name": "Marshall Stanmore II", "brand_id": 4, "price": 24990, "category_id": 2, "stock": 12, "image": "assets/img/product-marshall-home.png", "description": "Домашняя колонка в ретро-стиле", "connection_type": "Беспроводное" },
+  { "id": 5, "name": "HiBy R3 Pro", "brand_id": 5, "price": 15990, "category_id": 3, "stock": 10, "image": "assets/img/product-hiby.png", "description": "Цифровой аудиоплеер", "connection_type": "Проводное" },
+  { "id": 6, "name": "Fiio M11S", "brand_id": 6, "price": 45990, "category_id": 3, "stock": 5, "image": "assets/img/product-fiio.png", "description": "Плеер Hi-Res аудио", "connection_type": "Проводное" },
+  { "id": 7, "name": "Fosi Audio BT20A", "brand_id": 7, "price": 6990, "category_id": 4, "stock": 20, "image": "assets/img/product-fosi.png", "description": "Усилитель для колонок", "connection_type": "Комбинированное" },
+  { "id": 8, "name": "Yamaha A-S301", "brand_id": 8, "price": 39990, "category_id": 4, "stock": 7, "image": "assets/img/product-yamaha.png", "description": "Интегральный усилитель", "connection_type": "Проводное" }
+ ],
+ "orders": [],
+ "order_items": []
 }

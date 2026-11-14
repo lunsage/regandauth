@@ -7,194 +7,46 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <div class="topbar">
-    <div class="container topbar__inner">
-      <span>Москва · Доставка по всей России</span>
-      <span>Поможем с выбором: 8 800 700-24-08</span>
-    </div>
-  </div>
-
-  <header class="header">
-    <div class="container header__inner">
-      <a href="index.html" class="logo">AudioDream</a>
-      <nav class="nav">
-        <a href="catalog.html">Каталог</a>
-        <a href="cart.html">Корзина</a>
-        <a href="profile.html">Кабинет</a>
-        <a href="auth.html">Вход</a>
-      </nav>
-      <div class="header__right">
-        <button class="header__cart">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a4 4 0 0 0-8 0v2"/></svg>
-          <span class="header__cart-count">0 товаров</span>
-        </button>
-      </div>
-      <button class="header__burger" type="button" aria-label="Открыть меню" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-  <nav class="mobile-nav">
-    <div class="mobile-nav__inner">
-      <a href="catalog.html">Каталог</a>
-      <a href="cart.html">Корзина</a>
-      <a href="profile.html">Кабинет</a>
-      <a href="auth.html">Вход</a>
-    </div>
-  </nav>
-
-  <div class="searchbar">
-    <div class="container">
-      <div class="search">
-        <svg class="search__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        <input type="text" class="search__input" placeholder="Найти свой звук">
-        <span class="search__hint">Наушники, колонки, плееры</span>
-      </div>
-    </div>
-  </div>
+  <!-- Шапка -->
+  <div class="topbar"><div class="container topbar__inner"><span>Москва · Доставка по всей России</span><span>Поможем с выбором: 8 800 700-24-08</span></div></div>
+  <header class="header"><div class="container header__inner"><a href="index.html" class="logo">AudioDream</a><nav class="nav"><a href="catalog.html">Каталог</a><a href="cart.html">Корзина</a><a href="profile.html">Кабинет</a><a href="auth.html">Вход</a></nav><div class="header__right"><button class="header__cart"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a4 4 0 0 0-8 0v2"/></svg><span class="header__cart-count">0 товаров</span></button></div><button class="header__burger"><span></span><span></span><span></span></button></div></header>
+  <nav class="mobile-nav"><div class="mobile-nav__inner"><a href="catalog.html">Каталог</a><a href="cart.html">Корзина</a><a href="profile.html">Кабинет</a><a href="auth.html">Вход</a></div></nav>
+  <div class="searchbar"><div class="container"><div class="search"><svg class="search__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg><input type="text" class="search__input" placeholder="Найти свой звук"><span class="search__hint">Наушники, акустика, винил</span></div></div></div>
 
   <main class="container main">
-
     <section class="hero">
       <div class="hero__content">
         <div class="hero__subtitle">ВАША МУЗЫКА. ВАШ ЗВУК.</div>
         <h1 class="hero__title">Услышать больше.<br>Почувствовать всё.</h1>
-        <p class="hero__desc">Наушники, колонки, плееры и усилители, которые меняют привычное звучание. Найдите своё в AudioDream.</p>
+        <p class="hero__desc">Наушники, акустика и винил, которые меняют привычное звучание.</p>
         <a href="catalog.html" class="btn btn--primary">Выбрать свой звук</a>
-        <p class="hero__note">Sony WH-1000XM5 · 29 990 ₽</p>
       </div>
-      <div class="hero__image">
-        <img src="assets/img/hero.png" alt="">
-      </div>
+      <div class="hero__image"><img src="assets/img/hero.png" alt="Наушники"></div>
     </section>
 
     <section class="section">
       <h2 class="section__title">Какой звук ищете?</h2>
       <div class="categories">
-        <a href="catalog.html?category=1" class="category-card">
-          <div class="category-card__left">
-            <svg class="category-card__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
-            <div>
-              <h3>Наушники</h3>
-              <p>Для музыки, работы и тишины</p>
-            </div>
-          </div>
-          <svg class="category-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-        </a>
-        <a href="catalog.html?category=2" class="category-card">
-          <div class="category-card__left">
-            <svg class="category-card__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="2" width="16" height="20" rx="2"/><circle cx="12" cy="14" r="4"/><line x1="12" y1="6" x2="12" y2="6.01"/></svg>
-            <div>
-              <h3>Колонки</h3>
-              <p>Большой звук для любого пространства</p>
-            </div>
-          </div>
-          <svg class="category-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-        </a>
-        <a href="catalog.html?category=3" class="category-card">
-          <div class="category-card__left">
-            <svg class="category-card__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="1"/></svg>
-            <div>
-              <h3>Плееры</h3>
-              <p>Музыка всегда с собой</p>
-            </div>
-          </div>
-          <svg class="category-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-        </a>
-        <a href="catalog.html?category=4" class="category-card">
-          <div class="category-card__left">
-            <svg class="category-card__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="7" width="18" height="10" rx="2"/><circle cx="7" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="17" cy="12" r="1.5"/></svg>
-            <div>
-              <h3>Усилители</h3>
-              <p>Мощь и чистота звука</p>
-            </div>
-          </div>
-          <svg class="category-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-        </a>
-        <a href="catalog.html?category=5" class="category-card">
-          <div class="category-card__left">
-            <svg class="category-card__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12a8 8 0 0 1 16 0"/><path d="M4 12v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H4z"/><path d="M20 12v6a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2h3z"/></svg>
-            <div>
-              <h3>Аксессуары</h3>
-              <p>Всё для вашей аудиосистемы</p>
-            </div>
-          </div>
-          <svg class="category-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
-        </a>
+        <a href="catalog.html?category=1" class="category-card"><div class="category-card__left"><h3>Наушники</h3><p>Для музыки и тишины</p></div></a>
+        <a href="catalog.html?category=2" class="category-card"><div class="category-card__left"><h3>Колонки</h3><p>Звук для пространства</p></div></a>
+        <a href="catalog.html?category=3" class="category-card"><div class="category-card__left"><h3>Плееры</h3><p>Музыка всегда с собой</p></div></a>
       </div>
     </section>
 
     <section class="section">
-      <div class="section__header">
-        <h2 class="section__title">Выбор слушателей</h2>
-        <a href="catalog.html" class="section__link">Все товары →</a>
-      </div>
+      <div class="section__header"><h2 class="section__title">Популярные товары</h2><a href="catalog.html" class="section__link">Все товары →</a></div>
       <div class="products" id="featuredProducts"></div>
     </section>
-
+    
     <section class="section">
-      <div class="section__header">
-        <h2 class="section__title">Новинки</h2>
-        <a href="catalog.html?sort=name" class="section__link">Смотреть каталог →</a>
-      </div>
+      <div class="section__header"><h2 class="section__title">Новинки</h2></div>
       <div class="products" id="newProducts"></div>
     </section>
-
-    <section class="features">
-      <div class="feature">
-        <svg class="feature__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-        <div>
-          <h3>Бережная доставка</h3>
-          <p>По Москве — от 1 дня. По России — от 3 дней.</p>
-        </div>
-      </div>
-      <div class="feature">
-        <svg class="feature__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-        <div>
-          <h3>Официальная гарантия</h3>
-          <p>Только оригинальная техника и поддержка после покупки.</p>
-        </div>
-      </div>
-      <div class="feature">
-        <svg class="feature__icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
-        <div>
-          <h3>Помогаем выбрать</h3>
-          <p>Объясним разницу и подберём звук под вашу музыку.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section cta">
-      <div class="cta__content">
-        <h2 class="cta__title">Хороший звук начинается с выбора</h2>
-        <p class="cta__desc">Расскажите, что слушаете. Мы поможем найти технику, которую захочется включать каждый день.</p>
-      </div>
-      <button class="btn btn--outline">Помощь с выбором</button>
-    </section>
-
   </main>
 
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__left">
-        <div class="footer__logo">AudioDream</div>
-        <div class="footer__links">
-          <a href="#">Доставка и оплата</a>
-          <a href="#">Гарантия и возврат</a>
-          <a href="#">Контакты</a>
-        </div>
-      </div>
-      <div class="footer__right">
-        <div class="footer__phone">8 800 700-24-08</div>
-      </div>
-    </div>
-    <div class="container footer__bottom">
-      <span>© 2026 AudioDream. Ваша музыка. Ваш звук.</span>
-    </div>
-  </footer>
-
   <div id="toastContainer" class="toast-container"></div>
+  <footer class="footer"><div class="container footer__inner"><div class="footer__left"><div class="footer__logo">AudioDream</div><div class="footer__links"><a href="#">Доставка и оплата</a><a href="#">Гарантия и возврат</a><a href="#">Контакты</a></div></div><div class="footer__right"><div class="footer__phone">8 800 700-24-08</div></div></div><div class="container footer__bottom"><span>© 2026 AudioDream. Ваша музыка. Ваш звук.</span></div></footer>
+
   <script src="js/store.js"></script>
   <script src="js/auth.js"></script>
   <script src="js/app.js"></script>
